@@ -1,0 +1,68 @@
+body {
+  background: #dcddde;
+  padding: 30px 0 30px 0;
+  font-family: sans-serif; }
+
+span {
+  font: 12px sans-serif;
+  color: steelBlue;
+  display: block; }
+
+h1, h3, p {
+  padding: 0;
+  line-height: 0.3; }
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: steelBlue; }
+
+.container {
+  background: white;
+  display: inline-block;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 2px 2px 5px #646464; }
+
+.info {
+  line-height: 1;
+  padding: 10px;
+  background: #9adaa0;
+  color: #444444;
+  position: absolute;
+  text-align: center;
+  font: 12px sans-serif;
+  border-radius: 4px;
+  display: block; }
+  .info span {
+    font: 14px sans-serif;
+    color: black;
+    font-weight: bold; }
+
+.y .tick line {
+  display: none; }
+.y path {
+  display: none; }
+
+.axis text {
+  font: 12px sans-serif; }
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+#key {
+  float: right;
+  padding-right: 60px; }
+  #key span {
+    color: black; }
+  #key div {
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding: 5px 10px 0px 10px;
+    font: 12px sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
